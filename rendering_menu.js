@@ -6,6 +6,7 @@
 // <<< GEWIJZIGD: MENU_SUBTITLE_COLOR aangepast van "darkred" naar "red". >>>
 // <<< GEWIJZIGD: RESULTS_HEADER_COLOR aangepast van "darkred" naar "red". >>>
 // <<< GEWIJZIGD: RESULTS_START_Y verder verhoogd om tekst te laten zakken. >>>
+// <<< GEWIJZIGD: RESULTS_START_Y nu verlaagd om tekst 4 regels hoger te plaatsen. >>>
 
 // --- Menu/UI Constanten ---
 const MENU_LOGO_APPROX_HEIGHT = 85;
@@ -70,7 +71,7 @@ const RESULTS_LABEL_COLOR = "white";
 const RESULTS_VALUE_COLOR_CYAN = INTRO_TEXT_COLOR_NORMAL;
 const RESULTS_LINE_V_SPACING_SINGLE = 35;
 const RESULTS_LINE_V_SPACING_DOUBLE = 90;
-const RESULTS_START_Y = 155 + 20 + 20 + 20 + 20; // <<< GEWIJZIGD: Verhoogd met nogmaals 20 (was 155 + 20 + 20 + 20) >>>
+const RESULTS_START_Y = 155; // <<< GEWIJZIGD: Verlaagd met 4*20 (was 235) om 4 regels hoger te komen. >>>
 const RESULTS_FOOTER_FONT = MENU_SUBTITLE_FONT;
 const RESULTS_FOOTER_COLOR = MENU_SUBTITLE_COLOR;
 const RESULTS_PLATINI_TEXT = "Platini2000(c) LTD";
